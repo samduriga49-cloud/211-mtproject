@@ -1,0 +1,625 @@
+a:link {
+
+    color: #0a0909;
+
+    text-decoration: none;
+
+    }
+
+a:visited {
+
+    color: #999999;
+
+    text-decoration: none;
+
+    }
+
+a:hover {
+
+    color: #1a1717;
+
+    text-decoration: underline;
+
+    }
+
+a:active {
+
+    color: #131111;
+
+    text-decoration: none;
+
+    }
+
+
+
+/* --- APPLYING CHANGES --- */
+
+body {
+    /* Adding the full background */
+    background-image: url(girl.gif); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.page-wrapper {
+
+    animation: fadeInPage 1.5s ease-out;
+}
+
+header {
+
+    animation: floatHeader 4s ease-in-out infinite;
+}
+
+a:hover {
+
+    animation: linkGlow 1.5s infinite;
+    transition: all 0.3s ease;
+}
+
+
+
+
+.page-wrapper {
+
+width:630px;
+
+margin: auto;
+
+padding: 0 0 100px 0;
+
+background-image:url();
+
+background-repeat: no-repeat;
+
+background-position:bottom;
+
+border:0px dotted #999999;
+
+position:relative;
+
+
+}
+
+
+
+header {
+
+background: transparent url(header.png) no-repeat center top;
+
+border:0px dotted #ffffff;
+
+border-bottom: #000000;
+
+width:630px;
+
+height:387px;
+
+
+
+}
+
+
+
+.intro {
+
+width:400px;
+
+margin:0 0 0 0;
+
+border:0px dotted #999999;
+
+}
+
+
+
+.summary p:last-child {
+
+border:0px solid #000000;
+
+margin:-110px 0 95px 288px;
+
+padding: 0 0 0 15px;
+
+text-transform: uppercase;
+
+width:290px;
+
+font-family:Geneva, Arial, Helvetica, sans-serif;
+
+font-size:10px;
+
+font-weight:normal;
+
+color:#999999;
+
+background: transparent url(bullet.jpg) no-repeat 0% 28%;
+
+}
+
+
+
+.supporting {
+
+width:350px;
+
+margin:0 0 0 0;
+
+}
+
+
+
+.preamble, .explanation, .participation, .benefits, .requirements {
+
+border-bottom:0px dotted #999999;
+
+position:relative;
+
+width:350px;
+
+margin:0 0 0 60px;
+
+}
+
+
+
+.requirements {
+
+margin-bottom:35px;
+
+}
+
+
+
+.preamble h3 {
+
+background-image: url(title01.png);
+
+background-repeat: no-repeat;
+
+background-position: left top;
+
+width:286px;
+
+height:64px;
+
+margin-bottom:-5px;
+
+}
+
+
+
+.explanation h3 {
+
+background-image: url(title02.png);
+
+background-repeat: no-repeat;
+
+background-position: left top;
+
+width:286px;
+
+height:66px;
+
+margin-bottom:-5px;
+
+}
+
+
+
+.participation h3 {
+
+background-image: url(title03.png);
+
+background-repeat: no-repeat;
+
+background-position: left top;
+
+width:286px;
+
+height:66px;
+
+margin-bottom:-5px;
+
+}
+
+
+
+.benefits h3 {
+
+background-image: url(title04.png);
+
+background-repeat: no-repeat;
+
+background-position: left top;
+
+width:286px;
+
+height:66px;
+
+margin-bottom:-5px;
+
+}
+
+
+
+.requirements h3 {
+
+background-image: url(title05.png);
+
+background-repeat: no-repeat;
+
+background-position: left top;
+
+width:286px;
+
+height:66px;
+
+margin-bottom:-5px;
+
+}
+
+
+
+header h1, header h2, .summary p:first-child {
+
+display:none;
+
+}
+
+.preamble h3, .explanation h3, .participation h3, .benefits h3, .requirements h3 {
+
+    text-indent: 100%;
+
+    white-space: nowrap;
+
+    overflow: hidden;
+
+}
+
+
+
+.preamble h3, .explanation h3, .participation h3, .benefits h3, .requirements h3 {
+
+text-indent: 100%;
+
+white-space: nowrap;
+
+overflow: hidden;
+
+}
+
+
+
+p {
+
+color: #ffffff;
+
+text-shadow: #000000 5px 5px 5px;
+
+font-size:16px;
+
+font-weight:normal;
+
+line-height:1.4em;
+
+font-family: Geneva, Arial, Helvetica, sans-serif;
+
+}
+
+
+
+.sidebar {
+
+position: absolute;
+
+left:160px;
+
+right:auto;
+
+top: 400px;
+
+padding:0 0 0 0;
+
+margin-left: 270px;
+
+width: 200px;
+
+border:0px dotted #666666;
+
+background: transparent url(flower.png) no-repeat bottom;
+
+height:810px;
+
+}
+
+
+
+.sidebar ul {
+
+    text-align: left;
+
+    list-style: none;
+
+    margin: 0 0 0 0;
+
+    padding:0 0 15px 35px;
+
+    font-size:10px;
+
+    font-family:Geneva, Arial, Helvetica, sans-serif;
+
+    border:0px dotted #666666;
+
+    width:120px;
+
+    }
+
+
+
+.sidebar ul li{
+
+    margin: 0;
+
+    padding: 3px 0 3px 0;
+
+    border-bottom: 1px dotted #999999;
+
+}
+
+
+
+.sidebar ul li a, .sidebar ul li a:visited {
+
+    border-bottom: none;
+
+    outline:0;
+
+}
+
+
+
+.sidebar ul li a:hover {
+
+    color: #000000;
+
+    text-decoration: underline;
+
+}
+
+
+
+.design-selection {
+
+    font-size: 0.9em;
+
+}
+
+
+
+.design-selection ul li {
+
+    padding: 3px 0 3px 20px;
+
+    background: transparent url(bullet.jpg) no-repeat 1% 25%;
+
+    color:#f7f3f3;
+
+}
+
+
+
+.design-selection a {
+
+    display: block;
+
+    font-size: 1.1em;
+
+    color: #ff00d4;
+    text-shadow: #0f0c0c 3px 3px 3px;
+
+}
+
+
+
+.design-selection a.designer-name {
+
+    display:inline;
+
+    line-height:5px;
+
+    margin:0;
+
+    padding:0;
+
+    font: normal 1.0em/0.9em Geneva, Arial, Tahoma, sans-serif;
+
+    color: #f8f3f3;
+
+    text-shadow: #000000 3px 3px 3px;
+
+    letter-spacing: 1px;
+
+}
+
+
+
+.design-selection, .design-archives {
+
+    margin-bottom: 5px;
+
+    border:0px solid #000000;
+	font-size: 13px;
+
+}
+
+
+
+.design-archives ul li a, .zen-resources ul li a {
+
+color:#fdfcfc;
+text-shadow: #000000 3px 3px 3px;
+font-size: 13px;
+
+}
+
+
+
+.design-selection h3, .design-archives h3, .zen-resources h3 {
+
+    width: 196px;
+
+    height: 40px;
+
+    margin-bottom:-20px;
+
+    padding:10px 0 0 35px;
+
+    font-family:Geneva, Arial, Helvetica, sans-serif;
+
+    font-size:16px;
+
+    font-weight:normal;
+
+    text-transform: uppercase;
+
+    color:#fcfcfc;
+
+    text-shadow: #000000 3px 3px 3px;
+
+}
+
+
+
+footer{
+
+    text-align: left;
+
+    padding:0 0 0 0;
+
+    margin:0 0 0 60px;
+
+}
+
+
+
+footer a, footer a:visited {
+
+    padding: 5px;
+
+    border: 1px solid #000000;
+
+    background-color: #fff;
+
+    color: #666666;
+
+    font-family:Geneva, Arial, Helvetica, sans-serif;
+
+    font-size:16px;
+
+}
+
+
+
+footer a:hover {
+
+    padding: 5px;
+
+    border: 1px solid #eeeeee;
+
+    background-color: #eeeeee;
+
+    color: #999999;
+}
+
+/* --- NEW ANIMATIONS REGISTRY --- */
+@keyframes fadeInPage {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes floatHeader {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+@keyframes linkGlow {
+    0% { text-shadow: 0 0 5px #ec1d93; }
+    50% { text-shadow: 0 0 15px #ec1d93; }
+    100% { text-shadow: 0 0 5px #ec1d93; }
+}
+
+/* --- FALLING FLOWERS & FLYING BEES --- */
+
+/* 1. Moderate Falling Flowers */
+body::before {
+    content: "🌸"; 
+    position: fixed;
+    top: -50px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 9998;
+    font-size: 18px;
+    /* Manual placement of a few flowers via text-shadow */
+    color: transparent;
+    text-shadow: 15vw 10vh #ec1d93, 45vw 30vh #ffb7d5, 75vw 15vh #ec1d93, 90vw 50vh #ffb7d5;
+    animation: flowersFalling 12s linear infinite;
+}
+
+/* 2. Moderate Flying Bees */
+body::after {
+    content: "🐝";
+    position: fixed;
+    top: 20%;
+    left: -50px;
+    pointer-events: none;
+    z-index: 9999;
+    font-size: 22px;
+    filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.1));
+    animation: beesFlying 15s ease-in-out infinite;
+}
+
+/* --- THE ANIMATIONS --- */
+
+/* Flowers drift straight down with a tiny sway */
+@keyframes flowersFalling {
+    0% {
+        transform: translateY(-10vh) rotate(0deg);
+    }
+    100% {
+        transform: translateY(110vh) rotate(360deg);
+    }
+}
+
+/* Bees fly across the screen in a wave */
+@keyframes beesFlying {
+    0% {
+        left: -50px;
+        top: 20%;
+        transform: scaleX(1); /* Facing right */
+    }
+    45% {
+        top: 25%;
+    }
+    50% {
+        left: 110%;
+        top: 20%;
+        transform: scaleX(1);
+    }
+    51% {
+        transform: scaleX(-1); /* Turn around */
+    }
+    99% {
+        left: -50px;
+        top: 40%;
+        transform: scaleX(-1);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}
